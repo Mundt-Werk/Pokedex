@@ -1,0 +1,14 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/pokemon/Pokemon\ Solid.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(font/fotura/futura\ medium\ bt.ttf);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(font/prototyp/Prototype.ttf);
+}

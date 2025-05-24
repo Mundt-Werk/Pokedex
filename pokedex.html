@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="icon" type="image/x-icon" href="./img/pokeball.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <script src="script.js"></script>
+    <script src="rendering.js"></script>
+    <script src="filtering.js"></script>
+</head>
+<body onload="init()" id="body">
+
+    <div id="loading_screen" class="loading-screen d-none">
+        <img src="./img/gif/pika2.gif" alt="">
+    </div>
+    <div 
+        id="big_card_container" class="big-card-container d-none" onclick="closeBigCart()">
+    </div>
+
+    <header>
+        <div class="headline">
+            <h2>P</h2>
+            <img src="./img/pokeball-header.png" alt="">
+            <h2>kedeX</h2>
+        </div>
+        <div class="search-container">
+            <input id="search" type="text" placeholder="Find your Pokemon">
+        </div>
+    </header>
+
+    <div 
+        id="main_container" class="main-container">
+    </div>
+
+    <div onclick="loadMorePokemon()" class="load-more-pokemon">
+        <button id="loadMoreButton">Load More</button>
+    </div>    
+</body>
+</html>
